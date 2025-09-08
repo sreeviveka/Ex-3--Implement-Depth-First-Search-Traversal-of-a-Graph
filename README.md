@@ -1,8 +1,8 @@
 # Ex-3-Implement-Depth-First-Search-Traversal-of-a-Graph
 
-**Name:**
+**Name:** V.S.SREE VIVEKA
 
-**Register Number:**
+**Register Number:** 2305001031
 
 ### Aim:
 To Implement Depth First Search Traversal of a Graph using Python 3.
@@ -68,4 +68,7 @@ Graph: {'A': ['B', 'C'], 'B': ['A', 'D', 'E'], 'C': ['A', 'E'], 'D': ['B', 'E'],
 
 DFS Traversal Path: ['A', 'B', 'D', 'E', 'C']
 
+<img width="805" height="172" alt="image" src="https://github.com/user-attachments/assets/4ca01c2d-2ae2-42b9-a29a-91dddf768af1" />
+
 **Result:**
+Thus the givem program was implemented and executed successfully
