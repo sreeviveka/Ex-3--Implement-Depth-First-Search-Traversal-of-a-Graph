@@ -1,8 +1,8 @@
 # Ex-3-Implement-Depth-First-Search-Traversal-of-a-Graph
 
-**Name:**
+**Name:** V.S SREE VIVEKA
 
-**Register Number:**
+**Register Number:** 2305001031
 
 ### Aim:
 To Implement Depth First Search Traversal of a Graph using Python 3.
@@ -16,17 +16,11 @@ A graph can have more than one DFS traversal. Depth-first search is an algorithm
 The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. 
 
 ### Algorithm:
-
-Step 1: Construct a Graph with Nodes and Edges
-
-Step 2: Depth First Search Uses Stack and Recursion
-
-Step 3:Insert a START node to the STACK
-
-Step 4:Find its Successors Or neighbors and Check whether the node is visited or not
-
-Step 5:If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
-
+Construct a Graph with Nodes and Edges
+Depth First Search Uses Stack and Recursion
+Insert a START node to the STACK
+Find its Successors Or neighbors and Check whether the node is visited or not
+If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
 
 ### Program:
 ```
@@ -53,7 +47,6 @@ path = []
 traversed_path = dfs(graph, start, visited, path)
 print("DFS Traversal Path:", traversed_path)
 ```
-
 ### Sample Input:
 A B
 A C
@@ -68,4 +61,7 @@ Graph: {'A': ['B', 'C'], 'B': ['A', 'D', 'E'], 'C': ['A', 'E'], 'D': ['B', 'E'],
 
 DFS Traversal Path: ['A', 'B', 'D', 'E', 'C']
 
+<img width="805" height="172" alt="image" src="https://github.com/user-attachments/assets/4f1134e4-e87c-4e34-a05c-afc8dfacbc4d" />
+
 **Result:**
+Thus the given program was implemented and executed successfully.
